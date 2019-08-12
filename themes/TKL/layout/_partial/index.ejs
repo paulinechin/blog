@@ -1,0 +1,80 @@
+<!-- ============================ Hero Image =========================== -->
+
+<section id="hero" class="scrollme">
+    <div class="container-fluid element-img" style="background: url(<%- theme.cover %>) no-repeat center center fixed;background-size: cover">
+        <div class="row">
+            <!--div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost"-->
+            <div class="col-xs-12 vertical-align cover boost">
+                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
+                    <div>
+                      <% theme.top_saying.forEach(function(item){ %>
+                        <h2><%- item.title %></h2>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+            <!-- // .col-md-12 -->
+        </div>
+        <div class="herofade beige-dk"></div>
+    </div>
+</section>
+
+<!-- Height spacing helper -->
+<div class="heightblock"></div>
+<!-- // End height spacing helper -->
+
+<!-- ============================ END Hero Image =========================== -->
+<!-- ============================ Content =========================== -->
+
+<section id="intro">
+    <div class="container">
+        <% page.posts.each(function(post) { %>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                  <% if (post.tags && post.tags.length){ %>
+                  <% count = post.tags.length %>
+                  <% post.tags.forEach(function(tag, index) { %>
+                  <a class="herotag" href='<%= config.root + tag.path %>'><%= tag.name %></a><% if (count !== index+1) { %>,<% } %>
+                  <% }); %>
+                  <% } %>
+                    <h3><a href="<%- config.root %><%- post.path %>"><%- post.title %></a></h3>
+                    <span>
+                        <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
+                            <%= date(post.date, null) %>
+                        </time>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      <% if (post.excerpt){ %>
+                        <%- post.excerpt %>
+                      <% } else { %>
+                        <%- post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 220) %>
+                      <% } %>
+                    </p>
+                    <% if (theme.excerpt_link) { %>
+                    <p class="pull-right readMore">
+                        <a href="<%- config.root %><%- post.path %>"><%= theme.excerpt_link %>...</a>
+                    </p>
+                    <% } %>
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        <% }); %>
+        <nav class="pagination" role="pagination">
+          <% if (page.prev) { %><a class="pull-left" href="<%- url_for(page.prev_link) %>">← Newer Posts</a><% } %>
+          <% if (page.next) { %><a class="pull-right" href="<%- url_for(page.next_link) %>">Older Posts →</a><% } %>
+        </nav>
+    </div>
+</section>
+<section id="statement">
+    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row">
+            <p><%- theme.bottom_saying %></p>
+        </div>
+    </div>
+</section>
+<!-- ============================ END Content =========================== -->
