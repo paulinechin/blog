@@ -241,6 +241,10 @@ hr {
 	display: table-cell;
 	vertical-align: middle;
 }
+.center-bottom {
+	display: table-cell;
+	vertical-align: bottom;
+}
 /* No padding on-the-fly */
 .nopadding {
 	padding: 0;
@@ -595,7 +599,12 @@ nav i.icon-basic-eye {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:active {
-	color:#777;
+	color:#FCFCFC;
+}
+i:focus,
+i:hover,
+i:active {
+	color:#FCFCFC;
 }
 @media only screen and (max-width: 1024px) {
 
@@ -851,7 +860,7 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
+	color: #FCFCFC;
 	margin-bottom: 20px;
 	display: inline-block;
 	padding: 14px;
