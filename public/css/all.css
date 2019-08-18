@@ -21,7 +21,7 @@
 }
 
 *{
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 .pace {
 	-webkit-pointer-events: none;
@@ -69,7 +69,7 @@
 body {
 	background-color: #FFFFFF;
 	background-color: rgb(255,255,255);
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	color: #666;
 	font-style: normal;
 	font-weight: 400;
@@ -78,7 +78,7 @@ body {
 	padding: 0px 0px;
 }
 p {
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	color: #666;
 	font-style: normal;
 	font-weight: 400;
@@ -99,7 +99,7 @@ h4,
 h5,
 h6 {
 	margin-top: 0;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	font-weight: 400;
 	font-weight: normal;
 	color: #151515;
@@ -141,7 +141,7 @@ h4 span,
 h6 span,
 h6 span,
 .navbar .nav > li > span {
-	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 
 	font-style: italic;
 	margin-left: 4px;
@@ -181,7 +181,7 @@ blockquote {
 	margin: 40px 0;
 }
 blockquote p {
-	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	font-style: italic;
 	font-size: 15px;
 }
@@ -342,7 +342,7 @@ a.custom-button span {
 	-moz-border-radius: 0;
 	border-radius: 0;
 	font-size: 14px;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	font-weight: 700;
 	padding: 8px 18px;
 	font-weight: 600;
@@ -528,7 +528,7 @@ a.custom-button span {
 	padding:0px 10px;
 	margin:23px 0px;
 	color: #151515;
-	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 11px;
@@ -538,7 +538,7 @@ a.custom-button span {
 	border-right:1px solid #aaa;
 }
 .navbar .nav li.nolink {
-	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	color: #151515;
 	font-weight: 400;
 	text-shadow: none;
@@ -643,7 +643,7 @@ i:active {
 	top: 14px;
 	z-index: 1060;
 	color: #151515;
-	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 11px;
@@ -766,7 +766,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	font-style: normal;
 	font-weight: 600;
 	line-height: 20px;
-	font-family: 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 .sb-menu > li:first-child {
 	border-top: none; /* Removes top border from first list item.. */
@@ -775,7 +775,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	border-bottom: none; /* Removed bottom border from last list item. */
 }
 .sb-menu li a {
-	font-family: 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, "Helvetica Neue", Arial, sans-serif;
 	width: 100%; /* Makes links full width. */
 	display: inline-block;
 	font-weight: 600;
@@ -803,7 +803,7 @@ li.sb-toggle-submenu {
 	border-left: 3px solid transparent;
 	padding: 3px 10px;
 	cursor: pointer;
-	font-family: 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 li.sb-toggle-submenu:hover {
 	color: #fff; /* Link hover colour. */
@@ -867,7 +867,7 @@ span.sb-caret { /* Caret Down */
 }
 #hero p {
 	color: #333;
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	display: inline-block;
 }
@@ -930,7 +930,7 @@ span.sb-caret { /* Caret Down */
 #videohero p,
 #fallback p {
 	color: #333;
-	font-family: 'Georgia', serif, 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, 'Open Sans', Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	font-style: italic;
 	display: inline-block;
@@ -1059,7 +1059,7 @@ span.sb-caret { /* Caret Down */
 	padding: 0;
 }
 #blog .pager li > a {
-	font-family: 'Montserrat', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', Helvetica, "Helvetica Neue", Arial, sans-serif;
 	color: #151515;
 	font-weight: 400;
 }
@@ -1072,7 +1072,7 @@ span.sb-caret { /* Caret Down */
 	top: 3px;
 }
 #blog #subscribe p {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	padding-left: 60px;
 	margin-bottom: 20px;
@@ -1149,7 +1149,7 @@ span.sb-caret { /* Caret Down */
 	border: 3px solid rgba(255,255,255,.2);
 }
 #blog-post .author {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	position: absolute;
 	bottom: 75px;
@@ -1159,7 +1159,7 @@ span.sb-caret { /* Caret Down */
 	padding: 4px 20px;
 }
 #blog-post p.excerpt {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	font-size: 15px;
 	margin-top: 25px;
@@ -1240,7 +1240,7 @@ span.sb-caret { /* Caret Down */
 #blog-post a.readmore span {
 	color: #fff;
 	font-size: 18px;
-	font-family: 'Montserrat', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', Helvetica, "Helvetica Neue", Arial, sans-serif;
 	text-transform: none;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -1268,7 +1268,7 @@ span.sb-caret { /* Caret Down */
 	clear: both;
 }
 #blog-post .published p {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-style: italic;
 	color: #151515;
@@ -1439,7 +1439,7 @@ span.sb-caret { /* Caret Down */
 	position: absolute;
 	bottom: 60px;
 	font-style: italic;
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	margin-right: 60px;
 }
 hr.byline-accent {
@@ -1543,7 +1543,7 @@ hr.byline-accent {
 }
 
 #statement p {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	color: #333;
@@ -1661,7 +1661,7 @@ a.flex-next {
 	background-color: #fff;
 	color: #333;
 	padding: 15px 30px;
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	margin-bottom: 0;
 	float: left;
@@ -1756,7 +1756,7 @@ a.flex-next {
 	text-align: left;
 }
 #process span.number {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	line-height: 0;
@@ -1783,7 +1783,7 @@ a.flex-next {
 	transform: rotate(180deg);
 }
 .timeline-label p {
-	font-family: Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: 3px
 }
 #process .timeline-centered .timeline-entry .timeline-entry-inner {
@@ -1882,7 +1882,7 @@ a.flex-next {
 #process .present,
 #process .born {
   font-size: 14px;
-  font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   color: #333;
   padding: 10px;
@@ -2016,7 +2016,7 @@ ul.page-nav i {
 	margin-right: 0;
 	letter-spacing: 1px;
 	font-size: 14px;
-	font-family: 'Montserrat', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #bbb;
@@ -2120,7 +2120,7 @@ ul.page-nav i {
 	border-radius: 4px;
 }
 #team h3 a {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	text-transform: none;
 }
@@ -2148,7 +2148,7 @@ ul.page-nav i {
 .popover-title {
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	letter-spacing: 1px;
 	color: #fff;
 	font-weight: 400;
@@ -2181,7 +2181,7 @@ ul.page-nav i {
 	font-size: 25px;
 }
 #overview .overview-text p {
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
 	margin-top: 30px;
 	margin-bottom: 30px;
